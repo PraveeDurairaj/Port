@@ -1,4 +1,4 @@
-import { Container } from 'react-bootstrap';
+
 import Navigation from './components/1Navigation/Nav'
 import Home from './components/2Home/Home';
 import './App.css'
