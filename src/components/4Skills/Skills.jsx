@@ -1,39 +1,31 @@
 import React from 'react'
+import { Container,Row,Col,Image } from 'react-bootstrap';
+import html from './html5 (1).svg'
+import css from './css3-alt.svg'
+import js from './js.svg'
+import bootstrap from './bootstrap.svg'
+import react from './react.svg'
+import git from './github.svg'
 import './Skills.css'
-import { Container } from 'react-bootstrap'
+
+
+
 
 const Skills = () => {
   return (
-    <Container fluid className='bg-dark pt-3'>
-      <h1 className='d-flex justify-content-center text-light py-5'><span style={{'color':'yellow'}} className='me-2'>My</span> Skills</h1>
-      <div className="skills-container-list-of-skills">
-        <div className="progress" style={{'--i':'60'}}>
-            <h3>60<span>%</span></h3>
-            <h4>React</h4>
-        </div>
-        <div className="progress" style={{'--i':'70'}} >
-            <h3>70<span>%</span></h3>
-            <h4 className='fs-2'>JS</h4>
-        </div>
-        <div className="progress" style={{'--i':'65'}}>
-            <h3>65<span>%</span></h3>
-            <h4>CSS</h4>
-        </div>
-        <div className="progress" style={{'--i':'70'}}>
-            <h3>70<span>%</span></h3>
-            <h4>HTML</h4>
-        </div>
-        <div className="progress" style={{'--i':'50'}}>
-            <h3>50<span>%</span></h3>
-            <h4>GitHub</h4>
-        </div>
-        <div className="progress" style={{'--i':'60'}}>
-            <h3>60<span>%</span></h3>
-            <h4>VsCode</h4>
-        </div>
-      </div>
+    <>
+    <h1 className='text-center bg-dark py-5 display-3'>Skills</h1>
+    <Container fluid className='d-flex bg-dark justify-content-center gap-5 flex-wrap'>
+        <div className='box  shadow-lg p-3 mb-5  rounded'><Image src={html} className='w-100  p-2'/><h4>HTML</h4></div>
+        <div className='box shadow-lg p-3 mb-5  rounded'><Image src={css} className='w-100 p-2'/><h4>CSS</h4></div>
+        <div className='box shadow-lg p-3 mb-5  rounded'><Image src={js} className='w-100 p-2'/><h3>Js</h3></div>
+        <div className='box shadow-lg p-3 mb-5  rounded'><Image src={bootstrap} className='w-100 p-2 '/><h5 className='mt-2'>bootstrap</h5></div>
+        <div className='box shadow-lg p-3 mb-5  rounded'><Image src={react} className='w-100 p-2'/><h4>React</h4></div>
+        <div className='box shadow-lg p-3 mb-5  rounded'><Image src={git} className='w-100 p-2'/><h4>Github</h4></div>
     </Container>
-  )
+    </>
+    
+  );
 }
 
 export default Skills

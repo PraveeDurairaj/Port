@@ -9,11 +9,11 @@ const Home = () => {
   return (
     
       <Container fluid className='bg-dark text-light mt-0 '>
-        <div className='home-container'>
+        <div className='home-container py-5'>
      <p className='pt-5 ps-4 fs-3'>Hello</p>
-     <h1 className='ps-4 display-2'>I'm <span>Praveen</span></h1>
-     <h1 className='ps-4 display-2'>React Developer</h1>
-     <p className='ps-4 my-2'>As a React Developer. I Spaclallze In Bullding 
+     <h1 className='ps-4 display-1'>I'm <span>Praveen</span></h1>
+     <h1 className='ps-4 display-1'>React Developer</h1>
+     <p className='ps-4 my-3'>As a React Developer. I Spaclallze In Bullding 
         Interactive and responsive user interfaces using the React libray</p>
      <div className="intro-icons-container ps-4 mt-3">
           <div className="linkedIn-container icon-container">
