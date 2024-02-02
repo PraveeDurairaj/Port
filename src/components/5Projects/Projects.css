@@ -1,0 +1,16 @@
+.project-container{
+ background-color: black;
+ padding: 10px 5px !important;
+ margin: 5px 10px !important;
+ border-radius: 10px;
+}
+.project-container .project-text-container{
+    margin: 5px auto!important;
+}
+.project-container .project-btn-container{
+    display: flex;
+    justify-content: center;
+}
+.button{
+    background-color: yellow !important;
+}

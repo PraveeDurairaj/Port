@@ -5,7 +5,7 @@ import './About.css'
 
 const About = () => {
     return (
-        <Container className='bg-dark text-light' fluid>
+        <Container className='bg-dark text-light' fluid id='About'>
             <h1 className='d-flex justify-content-center pt-2 '>About <span className='ps-2' style={{'color':'yellow'}}>Me</span></h1>
             <Row>
                 <Col md={4} className='mt-3 d-flex justify-content-center'>
