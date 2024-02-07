@@ -1,7 +1,8 @@
 import React from 'react'
 import './Projects.css'
 import { Container, Image, Row, Col, Button } from 'react-bootstrap'
-import project_photo from './quote-6734894 (1).jpg'
+import project_photo from './BMI.png'
+
 
 const Projects = () => {
   return (

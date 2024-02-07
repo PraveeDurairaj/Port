@@ -5,8 +5,8 @@ import './Nav.css'
 const Navigation = () => {
   return (
   <>
-    <Navbar expand="lg" className="bg-body-tertiary pb-0 position-sticky" id='Nav'  >
-      <Container className='bg-dark text-light mb-0' fluid >
+    <Navbar expand="lg" className="bg-body-tertiary pb-0 position-fixed w-100" id='Nav'  >
+      <Container className='bg-dark text-light mb-0 position-relative' fluid  >
         <Navbar.Brand href="#home" style={{'color':'yellow'}} className='fw-600 fs-3 ps-3'>Praveen</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" className='justify-content-end'>
