@@ -15,7 +15,7 @@ const Navigation = () => {
             <Nav.Link href="#About" style={{'color':'white'}} className='px-4 mx-4 pt-2'>About</Nav.Link>
             <Nav.Link href="#skill-header" style={{'color':'white'}} className='px-4 mx-4 pt-2'>Skills</Nav.Link>
             <Nav.Link href="#Projects" style={{'color':'white'}} className='px-4 mx-4 pt-2'>Project</Nav.Link>
-            <Nav.Link href="#link" style={{'color':'white'}} className='px-4 mx-4 pt-2'>Contact</Nav.Link>
+            <Nav.Link href="#contact" style={{'color':'white'}} className='px-4 mx-4 pt-2'>Contact</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

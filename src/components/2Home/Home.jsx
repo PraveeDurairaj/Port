@@ -10,20 +10,20 @@ import gitHub from './github.png'
 const Home = () => {
   return (
 
-    <Container fluid className='bg-dark text-light mt-0 ' id='Home'>
+    <Container fluid className='bg-dark text-light py-5 ' id='Home'>
       <div className='home-container py-5'>
         <p className='pt-5 ps-4 fs-3'>Hello</p>
         <h1 className='ps-4 display-1'>I'm <span>Praveen</span></h1>
         <h1 className='ps-4 display-1' >React Developer</h1>
         <p className='ps-4 my-3'>As a React Developer. I Spaclallze In Bullding
           Interactive and responsive user interfaces using the React libray</p>
-        <div className="intro-icons-container ps-4 mt-3">
+        <div className="intro-icons-container ps-4 my-3 mt-2">
           <div className="linkedIn-container icon-container">
-            <img src={linkedIn} alt="" />
+            <a href="https://www.linkedin.com/in/praveendurairaj15/"><img src={linkedIn}/></a>
             <p>LinkedIn</p>
           </div>
           <div className="gitHub-container icon-container">
-            <img src={gitHub} alt="" />
+            <a href="https://github.com/PraveeDurairaj"><img src={gitHub}/></a>
             <p>gitHub</p>
           </div>
         </div>

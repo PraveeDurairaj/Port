@@ -4,7 +4,7 @@ import './contact.css'
 
 const Contact = () => {
     return (
-        <Container className='bg-dark' fluid>
+        <Container className='bg-dark py-5' fluid id='contact'>
             <div className='contact-container'>
                 <div className="contact-container-header">
                     <h1 className='text-center text-light py-5'>Contact <span>Me</span></h1>
