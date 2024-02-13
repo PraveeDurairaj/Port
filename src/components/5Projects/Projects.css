@@ -14,3 +14,10 @@
 .button{
     background-color: yellow !important;
 }
+.project-header{
+    color: yellow;
+}
+.project-btn-container .button:hover{
+ background-color: aliceblue!important;
+ border-color: black;
+}

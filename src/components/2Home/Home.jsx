@@ -3,6 +3,7 @@ import { Container, Button } from 'react-bootstrap'
 import './Home.css';
 import linkedIn from './linkedin.png'
 import gitHub from './github.png'
+import resume from './PraveenDurairaj.pdf'
 
 
 
@@ -27,7 +28,7 @@ const Home = () => {
             <p>gitHub</p>
           </div>
         </div>
-        <Button variant="light" className='ms-4 my-4 p-1 px-4'>Download CV</Button>
+       <a href={resume} download={true}> <Button variant="light" className='ms-4 my-4 p-1 px-4' >Download CV</Button></a>
       </div>
     </Container>
 
